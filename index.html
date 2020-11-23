@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Template</title>
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Часть Рината начинается -->
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu_list-item">
+                <a class="menu__list-link" href="#">HOME</a>
+              </li>
+              <li class="menu_list-item">
+                <a class="menu__list-link" href="#">ABOUT</a>
+              </li>
+              <li class="menu_list-item">
+                <a class="menu__list-link" href="#">TEAM</a>
+              </li>
+              <li class="menu_list-item">
+                <a class="menu__list-link" href="#">BOOKING</a>
+              </li>
+              <li>
+                <a href="#"><img src="./imgs/Vector.svg" /></a>
+              </li>
+              <li class="menu_list-item">
+                <a class="menu__list-link" href="#">MENU</a>
+              </li>
+              <li class="menu_list-item">
+                <a class="menu__list-link" href="#">GALERIE</a>
+              </li>
+              <li class="menu_list-item">
+                <a class="menu__list-link" href="#">EVENTS</a>
+              </li>
+              <li class="menu_list-item">
+                <a class="menu__list-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__body">
+          <h1 class="header__body-title title">
+            <span>restaurant</span><br />hungry people
+          </h1>
+          <div class="header__body__buttons">
+            <button class="buttons">BOOK TABLE</button>
+            <button class="buttons">EXPLORE</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Часть Рината заканчивается-->
+    <main>
+      <!-- Часть Катюши начало-->
+      <section class="about">
+        <!-- <div class="container"> -->
+        <div class="about__us">
+          <h2 class="about__us-title title">About Us</h2>
+          <p class="about__us-subtitle subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            at<br />
+            velit maximus, molestie est a, tempor magna.
+          </p>
+          <p class="about_us-text text">
+            Neque eu purus euismod, ac faucibus mauris posuere. Morbi non<br />
+            ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
+            odio vehicula<br />
+            eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+            diam convallis pharetra. Nulla facilisis
+          </p>
+        </div>
+        <img class="about-img" src="./imgs/fireplace.png" alt="fireplace" />
+        <!-- </div> -->
+      </section>
+
+      <!-- Часть Димусика начинается -->
+      <section class="book__table">
+        <div class="container">
+          <div class="contain__inner">
+            <div class="register">
+              <h2 class="register__title title">book a table</h2>
+              <form action="#" class="form">
+                <!-- Name -->
+                <input type="text" class="form-item" placeholder="Name" required />
+                <!-- Email -->
+                <input type="email" class="form-item" placeholder="Email" required />
+                <!-- Phone -->
+                <input type="tel" class="form-item" placeholder="Phone" required />
+                <!-- People -->
+                <select class="form-item" required>
+                  <option selected value="People">People</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+                <!-- Date -->
+                <input type="text" class="form-item" placeholder="Date (mm/dd)" required />
+                <!-- Time -->
+                <select class="form-item" placeholder="Time" required>
+                  <option required selected value="Time">Time</option>
+                </select>
+                <!-- Button -->
+                <input type="submit" class="form-item__btn" value="book now" />
+              </form>
+            </div>
+            <img src="./imgs/about-img.jpg" class="register-img" alt="Time" />
+          </div>
+          <p class="contain__bottom">
+            Mon - Fri: <span>8PM - 10PM</span>, Sat - Sun:<span>8PM - 3AM</span>, Phone:
+            <a class="contain__bottom-link" href="tel:40729131637"><span>+40 729 131 637</span></a>/
+            <a class="contain__bottom-link" href="tel:40726458782"><span>+40 726 458 782</span></a>
+          </p>
+        </div>
+      </section>
+
+      <section class="specialties">
+        <div class="container">
+          <h2 class="specialties__title">specialties</h2>
+          <div class="specialties__inner">
+            <img class="photo" src="./imgs/pancakes.png" alt="Chocolate Pancake" />
+            <div class="about__pancakes">
+              <h2 class="about__pancakes__title title">chocolate pancakes</h2>
+              <p class="about__pancakes__subtitle subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                at <br />
+                velit maximus, molestie est a, tempor magna.
+              </p>
+              <p class="about__pancakes__text text">
+                Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+                posuere. Morbi non ultrices ligula. Sed dictum, enim sed
+                ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+                lorem quam nec sem. Mauris tincidunt feugiat diam convallis
+                pharetra. Nulla facilisis semper laoreet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Часть Димусика заканчивается -->
+    </main>
+  </div>
+</body>
+
+</html>
